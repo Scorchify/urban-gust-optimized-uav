@@ -1,7 +1,7 @@
 ---
 Title: "LitterLift"
 Authors: "Ayden Yeung & Julian Givens"
-Description: "Reclaimr is an environmental surveillance drone geared towards litter detection and ecosystem health improvement."
+Description: "LitterLift is an environmental surveillance drone geared towards litter detection and ecosystem health improvement."
 Created_at: "2024-05-19"
 ---
 # Journal
