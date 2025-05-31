@@ -1,0 +1,8 @@
+# imported libraries
+import cv2
+import numpy as np 
+
+#hardware libraries 
+from picamera2 import Picamera2  
+
+# global variables
