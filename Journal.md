@@ -68,6 +68,13 @@ After I quickly finished the wiring diagram, Julian designed the Pi Camera Mount
 
 **Total Time Spent: 3.0 hrs**
 
+##5/30: Researched deep-learning frameworks, Pi5 to FC communication (MAVLink) - Ayden
+Today I made a document that hosted all of my research regarding the pros and cons of using Tensorflow or PyTorch with the Hailo AI Hat and Raspberry Pi 5. I also looked into how MAVLink works and how to calibrate a Raspberry Pi to setup MAVLink (how the companion computer talks to the flight controller).
+
+**Research displayed on Notion** 
+![image](https://github.com/user-attachments/assets/f23a2226-5899-4b27-9c74-303a192435a4)
+
+
 
 
 
