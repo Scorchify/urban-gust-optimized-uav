@@ -74,6 +74,10 @@ Today I made a document that hosted all of my research regarding the pros and co
 **Research displayed on Notion** 
 ![image](https://github.com/user-attachments/assets/f23a2226-5899-4b27-9c74-303a192435a4)
 
+##6/18: Researched about an additional problem that we could tackle with the drone. Today I fully went in depth into a seperate problem that could be solved via drone that might have a greater effect than our current idea. 
+![image](https://github.com/user-attachments/assets/741fb3e8-d7fd-47da-b4cd-06da72ca3934)
+
+
 
 
 
