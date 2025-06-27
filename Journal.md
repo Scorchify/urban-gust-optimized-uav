@@ -1,7 +1,8 @@
 ---
-Title: "LitterLift"
+Title: "MORPHEUS: Morphing Optimization for Reliable Positional & High-Efficiency Urban Stability
+"
 Authors: "Ayden Yeung & Julian Givens"
-Description: "LitterLift is an environmental surveillance drone geared towards litter detection and ecosystem health improvement."
+Description: "MORPHEUS is a morphing drone with added control profiles to optmimize energy efficiency and positional accuracy in urban wind fields."
 Created_at: "2024-05-19"
 ---
 # Journal
@@ -73,9 +74,21 @@ Today I made a document that hosted all of my research regarding the pros and co
 
 **Research displayed on Notion** 
 ![image](https://github.com/user-attachments/assets/f23a2226-5899-4b27-9c74-303a192435a4)
+**Total Time Spent: 2.5 hrs**
 
-##6/18: Researched about an additional problem that we could tackle with the drone. Today I fully went in depth into a seperate problem that could be solved via drone that might have a greater effect than our current idea. 
+
+##6/18: Researched about an additional problem that we could tackle with the drone. Today I fully went in depth into a seperate problem that could be solved via drone that might have a greater effect than our current idea - Ayden
 ![image](https://github.com/user-attachments/assets/741fb3e8-d7fd-47da-b4cd-06da72ca3934)
+**Total Time Spent: 2.5 hrs**
+
+##6/25 + 6/26: Project Development - Ayden and Julian
+On 6/25 we came up with another project idea seperate from the original LitterLift idea that we previously believed was the route we would take. The project we developed involved more of a physics and control theory sided background — something that we were interested in doing. The project is about optimizing quadcopter efficiency in urban wind fields. 
+On 6/26 we found and annotated 8 documents, putting all important research into a categorized summary document on notion. We also decided that this concept is what we'd pursue. 
+![image](https://github.com/user-attachments/assets/489aff67-a534-4476-a4d4-038347b20c00)
+![image](https://github.com/user-attachments/assets/f26ee369-59a0-4ac1-8583-4f17e7f4ba36)
+![image](https://github.com/user-attachments/assets/08aec18f-4fb1-46d2-8f18-1e124b2e6b18)
+
+**Total Time Spent: 6.0 hrs (3hrs each)**
 
 
 
