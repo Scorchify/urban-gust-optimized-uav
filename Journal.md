@@ -91,7 +91,13 @@ On 6/26 we found and annotated 8 documents, putting all important research into 
 **Total Time Spent: 6.0 hrs (3hrs each)**
 
 
+##6/27: Reviewed literature on variable hedral angle quadrotors and relevant control systems - Ayden and Julian
+On 6/27 we reviewed 10+ journal articles relating to the project and began assembling a plan for both the hardware and software systems. On the software side of the equation, we want to incorporate a nonlinear control paradigm augmented by a reinforcement learning model to determine the PID or LQR gains. Below is an image of the paper we used to plan out the hardware and software routes.
 
+![image](https://github.com/user-attachments/assets/bb2f08d9-3b2f-4bf6-8535-09b24114bcde)
+![image](https://github.com/user-attachments/assets/f16aec4e-f869-43d0-824e-5a2c856643e7)
+
+**Total Time Spent: 8.0 hrs (4hrs each)**
 
 
 
