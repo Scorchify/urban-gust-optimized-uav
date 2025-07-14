@@ -69,7 +69,7 @@ After I quickly finished the wiring diagram, Julian designed the Pi Camera Mount
 
 **Total Time Spent: 3.0 hrs**
 
-##5/30: Researched deep-learning frameworks, Pi5 to FC communication (MAVLink) - Ayden
+## 5/30: Researched deep-learning frameworks, Pi5 to FC communication (MAVLink) - Ayden
 Today I made a document that hosted all of my research regarding the pros and cons of using Tensorflow or PyTorch with the Hailo AI Hat and Raspberry Pi 5. I also looked into how MAVLink works and how to calibrate a Raspberry Pi to setup MAVLink (how the companion computer talks to the flight controller).
 
 **Research displayed on Notion** 
@@ -77,27 +77,78 @@ Today I made a document that hosted all of my research regarding the pros and co
 **Total Time Spent: 2.5 hrs**
 
 
-##6/18: Researched about an additional problem that we could tackle with the drone. Today I fully went in depth into a seperate problem that could be solved via drone that might have a greater effect than our current idea - Ayden
+## 6/18: Researched about an additional problem that we could tackle with the drone. Today I fully went in depth into a seperate problem that could be solved via drone that might have a greater effect than our current idea - Ayden
 ![image](https://github.com/user-attachments/assets/741fb3e8-d7fd-47da-b4cd-06da72ca3934)
 **Total Time Spent: 2.5 hrs**
 
-##6/25 + 6/26: Project Development - Ayden and Julian
+## 6/25 + 6/26: Project Development - Ayden and Julian
 On 6/25 we came up with another project idea seperate from the original LitterLift idea that we previously believed was the route we would take. The project we developed involved more of a physics and control theory sided background — something that we were interested in doing. The project is about optimizing quadcopter efficiency in urban wind fields. 
 On 6/26 we found and annotated 8 documents, putting all important research into a categorized summary document on notion. We also decided that this concept is what we'd pursue. 
 ![image](https://github.com/user-attachments/assets/489aff67-a534-4476-a4d4-038347b20c00)
 ![image](https://github.com/user-attachments/assets/f26ee369-59a0-4ac1-8583-4f17e7f4ba36)
 ![image](https://github.com/user-attachments/assets/08aec18f-4fb1-46d2-8f18-1e124b2e6b18)
 
-**Total Time Spent: 6.0 hrs (3hrs each)**
+**Total Time Spent: 7.0 hrs (3.5hrs each)**
 
 
-##6/27: Reviewed literature on variable hedral angle quadrotors and relevant control systems - Ayden and Julian
-On 6/27 we reviewed 10+ journal articles relating to the project and began assembling a plan for both the hardware and software systems. On the software side of the equation, we want to incorporate a nonlinear control paradigm augmented by a reinforcement learning model to determine the PID or LQR gains. Below is an image of the paper we used to plan out the hardware and software routes.
+## 6/27: Reviewed literature on variable hedral angle quadrotors and relevant control systems - Ayden and Julian
+On 6/27 we reviewed 10+ journal articles relating to the project and began assembling a plan for both the hardware and software systems. On the software side of the equation, we discussed incorporating a nonlinear control paradigm augmented by a reinforcement learning model to determine the PID or LQR gains. Below is an image of the paper we used to plan out the hardware and software routes.
 
 ![image](https://github.com/user-attachments/assets/bb2f08d9-3b2f-4bf6-8535-09b24114bcde)
 ![image](https://github.com/user-attachments/assets/f16aec4e-f869-43d0-824e-5a2c856643e7)
 
-**Total Time Spent: 8.0 hrs (4hrs each)**
+**Total Time Spent: 6.0 hrs (3hrs each)**
+
+## 6/30: Continued reading 2 research papers while drafting a control flow diagram - Ayden and Julian
+Julian read and annotated 2 more research paperand added all relevant infromation to the categorized summary document on Notion. I (Ayden) started to mock up a sample black box model for the drone. 
+<img width="1846" height="684" alt="image" src="https://github.com/user-attachments/assets/4a93be68-c0ec-4733-9905-8cea5b4a53c8" />
+
+**Total Time Spent: 2.0 hrs (1.0hrs each) 
+
+## 7/3: Finished a draft of the control flow diagram - Ayden 
+The changes made were that I filled in the Raspberry Pi box with what I think is to be the ideal parallel-cascade controller. I made some research notes to provide some justification on the general structure of the controller. Lastly, I researched a potential servo option (Dynamixel XL330-M288T) for the differential arm system. </br<
+Control Flow Diagram: 
+<img width="1790" height="657" alt="image" src="https://github.com/user-attachments/assets/96772fc9-c86a-4ba4-b5a2-d35e9a70fe72" />
+
+Research notes on Dynamixel and Electronics: 
+<img width="2142" height="1130" alt="image" src="https://github.com/user-attachments/assets/91bde729-061e-4459-831b-1021042f1544" />
+
+Research notes on control architecture:
+<img width="2233" height="1111" alt="image" src="https://github.com/user-attachments/assets/115a7e6d-c3d2-434a-bcd1-fcab03f9c9a0" />
+
+**Total Time Spent: 2.5 hrs**
+
+## 7/12: Re-edited BOM, Wiring Schematic, and Control Flow - Ayden 
+- Returned from vacation (gone since 7/3)'
+I removed parts specific to the LitterDrone project idea and replaced them with parts that we would need for the gust rejection drone. The list of parts included the Dynamixel XL330-M288T, and the Pixhawk 6C Mini. Additionally, I edited the wiring schematic to match this new configuration, updating it from the previous LitterDrone oriented configuration. Finally, I made small bug fixes to the control flow diagram as there was a mistake.</br>
+BOM:
+<img width="1274" height="871" alt="image" src="https://github.com/user-attachments/assets/ceea40ac-f63a-4855-96a9-6a4cb1c3e53c" />
+
+Wiring Schematic:
+<img width="1559" height="928" alt="image" src="https://github.com/user-attachments/assets/551c3939-b4e3-4013-b955-84e106e913e1" />
+
+Control Flow Diagram:
+<img width="1447" height="475" alt="image" src="https://github.com/user-attachments/assets/328f19a7-4e8b-4299-92a3-df778678a261" />
+
+**Total Time Spent: 4.0 hrs** 
+
+## 7/13: Added the wind sensor subsystem to the BOM and wiring schematic - Ayden
+I did some research on types of wind sensors and what would be better for specific tests. I considered a variety of factors including cost, effectiveness indoors with turbulent wind, outdoor resistance, durability, etc. I found that the type of sensor that matched our budget (I excluded ultrasonic anemometers) would be the hot wire anemometer. I ultimately picked this over the pitot tube due to physical constraints, effectiveness with the type of gusts we were studying, and overall testing environment. After this, I researched potential options for a hot wire anemometer, eventually coming across Modern Device's Rev P. I liked this product because it wasn't super large, and detects winds up to 150 mph with reasonable accuracy. Unfortunately since it was made to work with Arduino and needs 12V, I had to add a BEC and voltage step up converter. I also replaced the GPS with an optical flow sensor because I believe that our testing will be indoors (in GPS limited areas). </br>
+Updated BOM:
+<img width="1575" height="861" alt="image" src="https://github.com/user-attachments/assets/3492e350-56cf-4e5f-96e3-8adf70a0419d" />
+
+Updated Wiring Schematic:
+<img width="1244" height="845" alt="image" src="https://github.com/user-attachments/assets/c4ecdc4a-d734-4cb8-9c49-86ba786ff372" />
+
+Research on Wind Sensors: 
+<img width="1776" height="1113" alt="image" src="https://github.com/user-attachments/assets/3af0f59b-69e4-4f12-b133-6098563acb37" />
+
+**Total Time Spent: 4.0 hrs**
+
+
+
+
+
 
 
 
