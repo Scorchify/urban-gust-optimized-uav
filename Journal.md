@@ -145,7 +145,18 @@ Research on Wind Sensors:
 
 **Total Time Spent: 4.0 hrs**
 
+## 7/18: Made a research breakdown, discussed differential arm options, and installed MATLAB - Ayden and Julian
+We got together to discuss our full research question, and hypothesis. We also discussed materials and cost for prototyping our differential arm design. Finally, we obtained a MATLAB license and installed the application. We are going to order the parts needed from McMaster-Carr
+- Our next steps seem to be learning MATLAB and prototyping the differential arm, which would lead into finishing the drone frame
 
+CAD: 
+<img width="1502" height="895" alt="image" src="https://github.com/user-attachments/assets/a6b962e7-76a4-4a39-8eb5-e37284f1c2e3" />
+Section View: 
+<img width="1335" height="547" alt="image" src="https://github.com/user-attachments/assets/4ccd7e62-b37b-44b5-9352-6da800fc5907" />
+Research Breakdown:
+<img width="1694" height="772" alt="image" src="https://github.com/user-attachments/assets/1f1b52f1-0815-4931-8dcf-82c834d046f9" />
+
+**Total Time Spent: 4.0 hrs (2.0 hrs each) 
 
 
 
