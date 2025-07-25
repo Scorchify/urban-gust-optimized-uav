@@ -1,4 +1,4 @@
----
+<img width="2108" height="721" alt="image" src="https://github.com/user-attachments/assets/2086bb9c-e7d4-4630-8a9c-45a2ac82da83" />---
 Title: "MORPHEUS: Morphing Optimization for Reliable Positional & High-Efficiency Urban Stability
 "
 Authors: "Ayden Yeung & Julian Givens"
@@ -156,7 +156,16 @@ Section View:
 Research Breakdown:
 <img width="1694" height="772" alt="image" src="https://github.com/user-attachments/assets/1f1b52f1-0815-4931-8dcf-82c834d046f9" />
 
-**Total Time Spent: 4.0 hrs (2.0 hrs each) 
+**Total Time Spent: 4.0 hrs (2.0 hrs each)**
+
+## 7/24: Matlab introduction, researched compute resource allocation with current hardware - Ayden
+Our main goal, which has taken significant time away from actually working on the done is learning MATLAB (and after that learning the math for control theory). Additionally, I have been putting about 30 minutes a day into learning C++ in the event we use it when editing the Ardupilot software for our testing routines. Today, I mainly worked on doing research on how to computing power should be allocated, and how I can log certain data points. I found that the Raspberry Pi 5 (Linux) has a hard time with real-time processes (control loops) which is not ideal since I planned to use it for running the parallel-cascade controller. Thankfully, the Pixhawk 6C Mini has an STM microcontroller that can run the control loops, while the Raspberry Pi does the logging, and RL morphing. I also started doing a little bit of code for the logging and MAVLink portion of the drone. 
+
+<img width="2108" height="721" alt="image" src="https://github.com/user-attachments/assets/db7b929c-c759-4ddf-a532-a8cb84e98cda" />
+<img width="1757" height="573" alt="image" src="https://github.com/user-attachments/assets/051fc577-2b94-4a6f-8c0c-91d5296b700f" />
+
+**Total Time Spent: 2.5 hrs** 
+
 
 
 
