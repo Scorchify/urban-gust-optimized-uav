@@ -1,9 +1,9 @@
-<img width="2108" height="721" alt="image" src="https://github.com/user-attachments/assets/2086bb9c-e7d4-4630-8a9c-45a2ac82da83" />---
-Title: "MORPHEUS: Morphing Optimization for Reliable Positional & High-Efficiency Urban Stability
+---
+Title: "Morphing Optimization for Reliable Positional & High-Efficiency Urban Stability
 "
 Authors: "Ayden Yeung & Julian Givens"
-Description: "MORPHEUS is a morphing drone with added control profiles to optmimize energy efficiency and positional accuracy in urban wind fields."
-Created_at: "2024-05-19"
+Description: "MORPHEUS is a morphing drone with added control profiles to optimize energy efficiency and positional accuracy in urban wind fields."
+Created_at: "2025-05-19"
 ---
 # Journal
 ---
