@@ -167,7 +167,7 @@ Our main goal, which has taken significant time away from actually working on th
 **Total Time Spent: 2.5 hrs** 
 
 ## 7/25 + 7/26: Learned mavlink, re-learned csv, and developed mav_listener.py and logger.py files - Ayden
-Today I worked on learning and developing the logic to read sensor data from the Pixhawk (which is running ardupilot) on the Raspberry Pi via Mavlink. To do this, I created a listener file that reads the output of the Pixhawk and "listens" for messages that include the sensor data, updating the corresponding variables. I developed this structure by defining functiosn that are called in logger.py to initalize the mavlink connection, and update the data. The logger.py file saves the respective sensor outputs in seperate CSV files. 
+Today I worked on learning and developing the logic to read sensor data from the Pixhawk (which is running ardupilot) on the Raspberry Pi via Mavlink. To do this, I created a listener file that reads the output of the Pixhawk and "listens" for messages that include the sensor data, updating the corresponding variables. I developed this structure by defining functiosn that are called in logger.py to initalize the mavlink connection, and update the data. The logger.py file saves the respective sensor outputs in seperate CSV files. <br> 
 Excerpt of mav_listener.py 
 <img width="1569" height="1044" alt="image" src="https://github.com/user-attachments/assets/57fed9da-3611-4a52-8cc7-63c7d3ca8f1e" />
 
