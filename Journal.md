@@ -180,7 +180,7 @@ Updated Wiring Diagram
 **Total Time Spent: 4.0 hrs (3.0 hrs - code + 1.0 hr wiring diagram)**
 
 ## 7/27: Learned fundamentals of MATLAB (syntax, files, etc.) and Reinforcement Learning - Ayden 
-Today I watched two videos including a two-hour long MATLAB tutorial and Reinforcement Learning introduction. Within the two-hour MATLAB tutorial I learned the basic syntax of the program and how to do matrix operations, plotting, loops, etc. Afterwards, I watched the first introductory video in the MATLAB tech talk series on reinforcement learning, which was very informational and contributed to an improved understanding. After creating sections in the Notion where I put my notes for each video, I created a resource bank with various links to playlists and videos on Youtube for concepts we will eventually have to learn for the project. Finally, I made quick edits to the code to increase readibility. Tomorrow, I plan to tackle learning basic Simulink (with PIDs), check up with Julian on our McMasterCarr order, and diving into more applicable design choices regarding reinforcement learning (continous vs discrete RL). <br>
+Today I watched three videos including a two-hour long MATLAB tutorial, Reinforcement Learning introduction, and the second video in the Quadcopter MATLAB series. Within the two-hour MATLAB tutorial I learned the basic syntax of the program and how to do matrix operations, plotting, loops, etc. I applied the skills through small example projects. Afterwards, I watched the first introductory video in the MATLAB tech talk series on reinforcement learning, which was very informational and contributed to an improved understanding. After creating sections in the Notion where I put my notes for each video, I created a resource bank with various links to playlists and videos on Youtube for concepts we will eventually have to learn for the project. Finally, I made quick edits to the code to increase readibility. Tomorrow, I plan to tackle learning basic Simulink (with PIDs), check up with Julian on our McMasterCarr order, and diving into more applicable design choices regarding reinforcement learning (continous vs discrete RL). <br>
 Reinforcement Learning Notes: 
 <img width="2108" height="1120" alt="image" src="https://github.com/user-attachments/assets/a6cae635-b205-45ed-86a5-86c68f82dcc3" />
 MATLAB Notes 
@@ -188,7 +188,7 @@ MATLAB Notes
 <img width="1556" height="1235" alt="image" src="https://github.com/user-attachments/assets/082615c7-ced6-43bb-917f-852ecc60d7ff" />
 <img width="1692" height="860" alt="image" src="https://github.com/user-attachments/assets/14ac5c60-4341-47c3-8577-b8d687f11617" />
 
-
+**Total Time Spent: 5.0 hrs** 
 
 
 
