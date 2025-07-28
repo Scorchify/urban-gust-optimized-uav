@@ -4,7 +4,7 @@ import csv
 
 import time 
 
-# initialize variables to store data 
+# Initialize variables to store data 
 battery_current = 0.0
 battery_voltage = 0.0
 optical_flow_vector = {"x_mps": 0.0, "y_mps": 0.0}
@@ -31,12 +31,12 @@ def initialize_mavlink_connection(port = '/dev/ttyUSB0', baud=57600):
         _connection = None
         return False 
     
-def update_mavlink_data(): 
+def update_mavlink_data(wait_time=5): 
     global battery_current, battery_voltage, optical_flow_vector, optical_flow_quality, wind_speed, wind_direction
     global _connection, _last_heartbeat_time
 
-    if _connection is None or (time.time() - _last_heartbeat_time > 5):
-        # Attempt to re-initialize connection if it was lost or not established 
+    if _connection is None or (time.time() - _last_heartbeat_time > wait_time): # Give wait_time seconds to receive a heartbeat
+        # Attempt to re-initialize connection if it was lost or not established
             print("Attempting to re-initialize MAVLink connection...")
             if not initialize_mavlink_connection():
                 return False # Still no connection

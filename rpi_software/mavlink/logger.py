@@ -4,15 +4,15 @@ from mav_listener import initialize_mavlink_connection, update_mavlink_data, bat
 
 #setup log files
 battery_log_file = open('battery_log.csv', 'w', newline='')
-battery_log_writer = csv.writer(battery_log_file)
+battery_log_writer = csv.writer(battery_log_file) # Create file for battery data
 battery_log_writer.writerow(['timestamp', 'voltage_V', 'current_A'])
 
 optical_flow_log_file = open('optical_flow_log.csv', 'w', newline='')
-optical_flow_log_writer = csv.writer(optical_flow_log_file)
+optical_flow_log_writer = csv.writer(optical_flow_log_file) # Create file for optical flow data
 optical_flow_log_writer.writerow(['timestamp', 'x_mps', 'y_mps', 'quality'])
 
 wind_log_file = open('wind_log.csv', 'w', newline='')
-wind_log_writer = csv.writer(wind_log_file)
+wind_log_writer = csv.writer(wind_log_file) # Create file for wind data
 wind_log_writer.writerow(['timestamp', 'speed_mps', 'direction_deg'])
 
 if not initialize_mavlink_connection():
@@ -42,8 +42,8 @@ try:
                 wind_log_writer.writerow([current_time, wind_speed, 'N/A'])
                 wind_log_file.flush()
 
-        time.sleep(0.1) # adjust sample rate as needed
-except KeyboardInterrupt: # will not work when running on the drone 
+        time.sleep(0.1) # Adjust sample rate as needed
+except KeyboardInterrupt: # Will not work when running on the drone 
     print("Logging stopped by user.")
 
 finally:
