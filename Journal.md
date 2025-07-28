@@ -167,14 +167,29 @@ Our main goal, which has taken significant time away from actually working on th
 **Total Time Spent: 2.5 hrs** 
 
 ## 7/25 + 7/26: Learned mavlink, re-learned csv, and developed mav_listener.py and logger.py files - Ayden
-Today I worked on learning and developing the logic to read sensor data from the Pixhawk (which is running ardupilot) on the Raspberry Pi via Mavlink. To do this, I created a listener file that reads the output of the Pixhawk and "listens" for messages that include the sensor data, updating the corresponding variables. I developed this structure by defining functiosn that are called in logger.py to initalize the mavlink connection, and update the data. The logger.py file saves the respective sensor outputs in seperate CSV files. <br> 
-Excerpt of mav_listener.py 
+Today I worked on learning and developing the logic to read sensor data from the Pixhawk (which is running ardupilot) on the Raspberry Pi via Mavlink. To do this, I created a listener file that reads the output of the Pixhawk and "listens" for messages that include the sensor data, updating the corresponding variables. I developed this structure by defining functions that are called in logger.py to initalize the mavlink connection, and update the data. The logger.py file saves the respective sensor outputs in seperate CSV files. Finally, I edited the wiring diagram to account for the wind sensor being directly connected to the Pixhawk 6C mini instead of the raspberry pi  <br> 
+Excerpt of mav_listener.py
 <img width="1569" height="1044" alt="image" src="https://github.com/user-attachments/assets/57fed9da-3611-4a52-8cc7-63c7d3ca8f1e" />
 
 Excerpt of logger.py
 <img width="1704" height="1153" alt="image" src="https://github.com/user-attachments/assets/0efa5469-42bc-432c-a736-157dceb67db5" />
 
-**Total Time Spent: 3.0 hrs**
+Updated Wiring Diagram
+<img width="1704" height="933" alt="image" src="https://github.com/user-attachments/assets/755ae4e7-6b1c-4199-9eee-0b8056d7a1ab" />
+
+**Total Time Spent: 4.0 hrs (3.0 hrs - code + 1.0 hr wiring diagram)**
+
+## 7/27: Learned fundamentals of MATLAB (syntax, files, etc.) and Reinforcement Learning - Ayden 
+Today I watched two videos including a two-hour long MATLAB tutorial and Reinforcement Learning introduction. Within the two-hour MATLAB tutorial I learned the basic syntax of the program and how to do matrix operations, plotting, loops, etc. Afterwards, I watched the first introductory video in the MATLAB tech talk series on reinforcement learning, which was very informational and contributed to an improved understanding. After creating sections in the Notion where I put my notes for each video, I created a resource bank with various links to playlists and videos on Youtube for concepts we will eventually have to learn for the project. Finally, I made quick edits to the code to increase readibility. Tomorrow, I plan to tackle learning basic Simulink (with PIDs), check up with Julian on our McMasterCarr order, and diving into more applicable design choices regarding reinforcement learning (continous vs discrete RL). <br>
+Reinforcement Learning Notes: 
+<img width="2108" height="1120" alt="image" src="https://github.com/user-attachments/assets/a6cae635-b205-45ed-86a5-86c68f82dcc3" />
+MATLAB Notes 
+<img width="1361" height="1019" alt="image" src="https://github.com/user-attachments/assets/eedc5a3b-6a6a-4a08-b9cd-58343b87d5fe" />
+<img width="1556" height="1235" alt="image" src="https://github.com/user-attachments/assets/082615c7-ced6-43bb-917f-852ecc60d7ff" />
+<img width="1692" height="860" alt="image" src="https://github.com/user-attachments/assets/14ac5c60-4341-47c3-8577-b8d687f11617" />
+
+
+
 
 
 
