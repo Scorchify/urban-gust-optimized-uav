@@ -1,6 +1,6 @@
 import csv
 import time 
-from mav_listener import initialize_mavlink_connection, update_mavlink_data, battery_current, battery_voltage,optical_flow_vector, optical_flow_quality, wind_speed, wind_direction
+from mav_listener import initialize_mavlink_connection, update_mavlink_data, battery_current, battery_voltage,optical_flow_vector, optical_flow_quality, wind_speed, wind_direction, attitude_roll, attitude_pitch, attitude_yaw, relative_altitude_mm, altitude_msl_mm
 
 #setup log files
 battery_log_file = open('battery_log.csv', 'w', newline='')
@@ -15,11 +15,18 @@ wind_log_file = open('wind_log.csv', 'w', newline='')
 wind_log_writer = csv.writer(wind_log_file) # Create file for wind data
 wind_log_writer.writerow(['timestamp', 'speed_mps', 'direction_deg'])
 
+attitude_log_file = open('attitude_log.csv', 'w', newline='')
+attitude_log_writer = csv.writer(attitude_log_file) # Create file for attitude data
+attitude_log_writer.writerow(['timestamp', 'roll_deg', 'pitch_deg', 'yaw_deg'])
+
+altitude_log_file = open('altitude_log.csv', 'w', newline='')
+altitude_log_writer = csv.writer(altitude_log_file) # Create file for altitude data
+altitude_log_writer.writerow(['timestamp', 'relative_altitude_mm', 'altitude_msl_mm'])
+
+
 if not initialize_mavlink_connection():
     print("Failed to connect. Attempting to restart connection.")
     initialize_mavlink_connection()
-
-
 
 try: 
     while True: 
@@ -33,6 +40,14 @@ try:
             # Log optical flow data
             optical_flow_log_writer.writerow([current_time, optical_flow_vector['x_mps'], optical_flow_vector['y_mps'], optical_flow_quality])
             optical_flow_log_file.flush()
+
+            #log attitude data
+            attitude_log_writer.writerow([current_time, attitude_roll, attitude_pitch, attitude_yaw])
+            attitude_log_file.flush()
+
+            #log altitude data
+            altitude_log_writer.writerow([current_time, relative_altitude_mm, altitude_msl_mm])
+            altitude_log_file.flush()
 
             # Log wind data
             if wind_direction is not None:

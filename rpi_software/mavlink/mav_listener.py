@@ -2,7 +2,7 @@
 from pymavlink import mavutil
 import csv
 
-import time 
+import time, math
 
 # Initialize variables to store data 
 battery_current = 0.0
@@ -64,12 +64,23 @@ def update_mavlink_data(wait_time=5):
                     optical_flow_vector = {"x_mps": 0.0, "y_mps": 0.0}
                     optical_flow_quality = 0.0
 
+            elif msg_type == 'ATTITUDE':
+                roll_angle_deg = math.degrees(msg.roll)    # Roll angle in degrees
+                pitch_angle_deg = math.degrees(msg.pitch)  # Pitch angle in degrees
+                yaw_angle_deg = math.degrees(msg.yaw)      # Yaw angle in degrees
+
+            elif msg_type == 'GLOBAL_POSITION_INT':
+                relative_altitude_mm = getattr(msg, 'relative_alt', 0)
+                altitude_msl_mm = getattr(msg, 'alt', 0) #mean sea level altitude
+
             elif msg_type == 'WIND':
                 wind_speed = msg.speed
                 wind_direction = getattr(msg, 'direction', None)
             return True # Successfully read a message
+        
         else:
             return True
+
 
     except Exception as e:
         print(f"Error reading MAVLink message: {e}")
