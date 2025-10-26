@@ -17,3 +17,13 @@ V2:
 ![image.png](https://blueprint.hackclub.com/user-attachments/blobs/proxy/eyJfcmFpbHMiOnsiZGF0YSI6Mzg1NywicHVyIjoiYmxvYl9pZCJ9fQ==--5def1b00b8fe454e1b937ec5b7ee05574dd3ddcc/image.png)
   
 
+## 10/26/2025 - Mocked up PID Control Model in Simulink  
+
+After watching a Brian Douglas Video on the MATLAB Youtube Channel about Drone PID System, I applied the knowledge and mocked up a control system for GOUAV.
+World to Body Conversions: 
+ ![image](https://blueprint.hackclub.com/user-attachments/blobs/proxy/eyJfcmFpbHMiOnsiZGF0YSI6NTgzNywicHVyIjoiYmxvYl9pZCJ9fQ==--016b085edd38a40b7a83cb661fe0415971aa3c68/image.png)
+Overall Model: 
+![image](https://blueprint.hackclub.com/user-attachments/blobs/proxy/eyJfcmFpbHMiOnsiZGF0YSI6NTgzOCwicHVyIjoiYmxvYl9pZCJ9fQ==--415e939bda0282ed42d91db174c66f8872dc6b4a/image.png)
+
+  
+
