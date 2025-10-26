@@ -19,7 +19,7 @@ V2:
 
 ## 10/26/2025 - Mocked up PID Control Model in Simulink  
 
-After watching a Brian Douglas Video on the MATLAB Youtube Channel about Drone PID System, I applied the knowledge and mocked up a control system for GOUAV.
+I spent time remembering how to use MATLAB and Simulink (and the math/structure behind the models) After watching a Brian Douglas Video on the MATLAB Youtube Channel about Drone PID System, I applied the knowledge and mocked up a control system for GOUAV. This is one of the three control models I wish to test, with this model being used on the fixed-frame trial of our drone. I hope to adapt this model for our morphing trial. 
 World to Body Conversions: 
  ![image](https://blueprint.hackclub.com/user-attachments/blobs/proxy/eyJfcmFpbHMiOnsiZGF0YSI6NTgzNywicHVyIjoiYmxvYl9pZCJ9fQ==--016b085edd38a40b7a83cb661fe0415971aa3c68/image.png)
 Overall Model: 
